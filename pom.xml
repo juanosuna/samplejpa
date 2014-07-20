@@ -9,6 +9,7 @@
     </parent>
     <groupId>com.brownbag</groupId>
     <artifactId>samplejpa</artifactId>
+    <version>1.0-SNAPSHOT</version>
     <name>Spring Boot JPA Sample </name>
 
     <dependencies>
