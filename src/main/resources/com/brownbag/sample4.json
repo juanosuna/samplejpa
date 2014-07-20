@@ -1,0 +1,6 @@
+{"tones": [1, 2], "name": "sample4", "groups": [
+    {
+        "tones": [-2, -1],
+        "topic": 200
+    }
+]}
