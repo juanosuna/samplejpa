@@ -54,7 +54,7 @@ public class MainController {
         return articleRepository.findByFilter(articleFilter);
     }
 
-    private ArticleFilter deserialize(String jsonFilename) throws Exception {
+    public ArticleFilter deserialize(String jsonFilename) throws Exception {
         InputStream inputStream = getClass().getResourceAsStream(jsonFilename);
         String json = IOUtils.toString(inputStream, "UTF-8");
 

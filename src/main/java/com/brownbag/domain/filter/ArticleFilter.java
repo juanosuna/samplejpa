@@ -58,6 +58,9 @@ public class ArticleFilter extends AbstractSentimentFilter {
 
     public void setGroups(Set<TagFilter> groups) {
         this.groups = groups;
+        for (TagFilter group : groups) {
+            group.setArticleFilter(this);
+        }
     }
 
     public TagFilter createTagFilter() {
