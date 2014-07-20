@@ -10,7 +10,7 @@ Note: Maven profile regenerate is turned on by default and regenerates DB (file 
 1. Execute build.bat
 2. Execute run.bat
 3. Test rest services in browser that execute sample queries and return JSON:
-- http://localhost:8080/sample1
-- http://localhost:8080/sample2
-- http://localhost:8080/sample3
-- http://localhost:8080/sample4
+http://localhost:8080/sample1
+http://localhost:8080/sample2
+http://localhost:8080/sample3
+http://localhost:8080/sample4
